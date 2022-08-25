@@ -2,15 +2,22 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
+  height: 235px;
 
   display: flex;
   flex-direction: column;
   align-items: center;
 
-  padding: 32px 0;
+  padding: 32px;
 
-  background: ${({ theme }) => theme.colors.aside.headerBackground};
-  box-shadow: 0 4px 5px -5px ${({ theme }) => theme.colors.aside.bottomShadow};
+  background: ${({ theme }) => theme.colors.aside.header.background};
+  box-shadow: 0 2px 4px -4px ${({ theme }) => theme.colors.shadow};
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  z-index: 2;
 `;
 
 export const Image = styled.img`

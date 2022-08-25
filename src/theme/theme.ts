@@ -4,11 +4,27 @@ export const theme = {
   title: "white",
   colors: {
     aside: {
-      background: colors.Cultured,
-      headerBackground: colors.White,
-      bottomShadow: colors.Silver,
+      header: {
+        background: colors.White,
+        title: colors["Eerie Black"],
+      },
+      footer: {
+        background: colors.White,
+      },
+      content: {
+        background: colors.Cultured,
+      },
     },
-    font: colors["Jet 2"],
-    title: colors["Eerie Black"],
+
+    progress: {
+      labelBackground: colors.Cultured,
+      progressBackground: colors["Silver"],
+    },
+
+    font: colors["Davys Grey 2"],
+    title: colors["Onyx"],
+    contrast: colors.contrast["orange-red-crayola"],
+    border: colors["Gainsboro"],
+    shadow: colors["Davys Grey 2"],
   },
 };
