@@ -4,9 +4,11 @@ export const theme = {
   title: "white",
   colors: {
     aside: {
-      background: colors["white-shades"][100],
+      background: colors.Cultured,
+      headerBackground: colors.White,
+      bottomShadow: colors.Silver,
     },
-    font: colors["white-shades"][200],
-    title: colors["black-shades"][200],
+    font: colors["Jet 2"],
+    title: colors["Eerie Black"],
   },
 };
