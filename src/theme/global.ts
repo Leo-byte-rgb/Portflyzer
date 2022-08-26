@@ -24,7 +24,7 @@ html {
 }
 
 body {
-    font-family: 'JetBrains Mono', monospace, sans-serif;
+  font-family: 'JetBrains Mono', monospace, sans-serif;
 }
 
 `;

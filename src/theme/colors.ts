@@ -1,7 +1,7 @@
 export const colors = {
   White: "#FFFFFF",
-  Cultured: "#F6F6F6",
-  "Cultured 3": "#EDEDED",
+  Cultured: "#f4f5f6",
+  "Cultured 2": "#EDEDED",
   Platinum: "#E5E5E5",
   Gainsboro: "#DCDCDC",
   "Light Gray": "#D3D3D3",

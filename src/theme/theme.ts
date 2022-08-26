@@ -6,7 +6,6 @@ export const theme = {
     aside: {
       header: {
         background: colors.White,
-        title: colors["Eerie Black"],
       },
       footer: {
         background: colors.White,
@@ -21,10 +20,11 @@ export const theme = {
       progressBackground: colors["Silver"],
     },
 
-    font: colors["Davys Grey 2"],
-    title: colors["Onyx"],
+    font: colors["Davys Grey"],
+    title: colors["Davys Grey 2"],
     contrast: colors.contrast["orange-red-crayola"],
     border: colors["Gainsboro"],
     shadow: colors["Davys Grey 2"],
+    background: colors.Cultured,
   },
 };
