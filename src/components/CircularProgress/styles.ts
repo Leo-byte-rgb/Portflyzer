@@ -1,8 +1,6 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  background: inherit;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -13,10 +11,8 @@ export const Label = styled.div`
   height: 45px;
   border-radius: 50%;
 
-  background: ${({ theme }) => theme.colors.progress.labelBackground};
+  background: ${({ theme }) => theme.colors.aside.content.background};
   color: ${({ theme }) => theme.colors.font};
-
-  z-index: 1;
 
   display: flex;
   align-items: center;

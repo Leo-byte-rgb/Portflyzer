@@ -1,6 +1,7 @@
+import { Header } from "components/Header";
 import { Navbar } from "components/Navbar";
 import { ReactNode } from "react";
-import { Container, Main } from "./styles";
+import { Wrapper, Main, Content } from "./styles";
 
 interface IProfileLayout {
   children: ReactNode;
@@ -8,11 +9,12 @@ interface IProfileLayout {
 
 export const ProfileLayout = ({ children }: IProfileLayout) => {
   return (
-    <Container>
+    <Wrapper>
       <Main>
         <Navbar />
-        {children}
+        <Header />
+        <Content>{children}</Content>
       </Main>
-    </Container>
+    </Wrapper>
   );
 };

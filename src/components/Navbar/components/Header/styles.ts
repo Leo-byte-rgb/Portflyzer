@@ -16,8 +16,6 @@ export const Container = styled.div`
   position: absolute;
   top: 0;
   left: 0;
-
-  z-index: 2;
 `;
 
 export const Image = styled.img`
@@ -30,8 +28,6 @@ export const Image = styled.img`
 export const Name = styled.h5`
   font-size: 16px;
   margin-top: 8px;
-
-  color: ${({ theme }) => theme.colors.title};
 `;
 export const Infos = styled.span`
   font-size: 13px;
@@ -40,6 +36,4 @@ export const Infos = styled.span`
   &:last-child {
     margin-top: 2px;
   }
-
-  color: ${({ theme }) => theme.colors.font};
 `;

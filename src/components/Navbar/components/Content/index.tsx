@@ -37,15 +37,15 @@ export const Content = () => {
         <Row>
           <Column>
             <CircularProgress value={95} />
-            <span>Português</span>
+            <span>Web Dev</span>
           </Column>
           <Column>
             <CircularProgress value={75} />
-            <span>Inglês</span>
+            <span>Design</span>
           </Column>
           <Column>
             <CircularProgress value={75} />
-            <span>Francês</span>
+            <span>Infra</span>
           </Column>
         </Row>
       </LanguageSkills>

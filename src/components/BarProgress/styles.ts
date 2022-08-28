@@ -44,10 +44,8 @@ export const Heading = styled.div`
 
   h6 {
     font-size: 12px;
-    color: ${({ theme }) => theme.colors.title};
   }
   span {
     font-size: 12px;
-    color: ${({ theme }) => theme.colors.font};
   }
 `;

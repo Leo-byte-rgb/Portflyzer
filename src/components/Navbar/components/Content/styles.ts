@@ -28,11 +28,9 @@ export const Section = styled.div`
 
   h6 {
     font-size: 13px;
-    color: ${({ theme }) => theme.colors.title};
   }
   span {
     font-size: 13px;
-    color: ${({ theme }) => theme.colors.font};
   }
 `;
 

@@ -6,6 +6,8 @@ export const GlobalStyle = createGlobalStyle`
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+
+  font-family: 'Poppins', sans-serif;
 }
 
 html {
@@ -22,9 +24,4 @@ html {
     font-size: 16px;
   }
 }
-
-body {
-  font-family: 'JetBrains Mono', monospace, sans-serif;
-}
-
 `;

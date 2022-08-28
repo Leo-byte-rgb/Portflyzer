@@ -1,15 +1,19 @@
+import { NavProvider } from "hooks/useNav";
 import { ProfileLayout } from "layout";
+import { Home } from "pages/Home";
 import { ThemeProvider } from "styled-components";
 import { GlobalStyle } from "theme/global";
-import { theme } from "theme/theme";
+import { darkTheme } from "theme/theme";
 
 function App() {
   return (
-    <ThemeProvider theme={theme}>
+    <ThemeProvider theme={darkTheme}>
       <GlobalStyle />
-      <ProfileLayout>
-        <></>
-      </ProfileLayout>
+      <NavProvider>
+        <ProfileLayout>
+          <Home />
+        </ProfileLayout>
+      </NavProvider>
     </ThemeProvider>
   );
 }

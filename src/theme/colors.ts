@@ -6,6 +6,7 @@ export const colors = {
   Gainsboro: "#DCDCDC",
   "Light Gray": "#D3D3D3",
   "Light Gray 2": "#CACACA",
+
   Silver: "#C1C1C1",
   "Gray X 11 Gray": "#B9B9B9",
   "Silver Chalice": "#B0B0B0",
@@ -15,15 +16,18 @@ export const colors = {
   "Battleship Grey": "#8D8D8D",
   "Battleship Grey 2": "#848484",
   "Gray Web": "#7B7B7B",
+
   "Sonic Silver": "#727272",
   "Dim Gray": "#6A6A6A",
   "Granite Gray": "#616161",
   "Davys Grey": "#585858",
   "Davys Grey 2": "#4F4F4F",
+
   Onyx: "#464646",
   "Onyx 2": "#3E3E3E",
   Jet: "#353535",
   "Jet 2": "#2C2C2C",
+
   "Eerie Black": "#232323",
   "Eerie Black 2": "#1A1A1A",
   "Smoky Black": "#121212",
@@ -31,9 +35,13 @@ export const colors = {
   Black: "#000000",
 
   "raisin-black": {
-    50: "#2D2D39",
-    100: "#24242E",
-    150: "#1B1B22",
+    50: "#3F3F50",
+    100: "#363645",
+    150: "#2D2D39",
+    200: "#24242E",
+    250: "#1B1B22",
+    300: "#121217",
+    350: "#09090B",
   },
 
   contrast: {
